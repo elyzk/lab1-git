@@ -1,0 +1,79 @@
+:root {
+    --ncssm-blue: #99caea;
+    --ncssm-blue-dark: #1a547a;
+    --bg-color: #8a8a8d;
+}
+
+* {
+    font-family: 'Verdana';
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+form {
+    border: 5px solid var(--ncssm-blue-dark);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 70vh;
+    background-color: var(--ncssm-blue);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+input {
+    margin-left: 1em;
+}
+
+input[type="text"], input[type="password"]{
+    width: 100%;
+    height: 100%;
+    border: 3px solid var(--ncssm-blue-dark);
+    border-radius: 3px;
+    font-size: 1.5vw;
+    font-family: 'Verdana';
+}
+
+input[type="color"] {
+    width: 10%;
+    height: 100%; 
+    border: 3px solid var(--ncssm-blue-dark);
+    border-radius: 3px;
+}
+
+span {
+    display: flex;
+    align-items: end;
+    font-size: 3vw;
+    color: var(--ncssm-blue-dark);
+    font-family: 'Verdana';
+    padding: 1em 1em 0em 1em;
+    height: 50%;
+}
+
+#submit-container {
+    justify-content: end;
+    height: 100%;
+    bottom: 15px;
+}
+
+#submit-button {
+    font-size: 1.5vw;
+    position: absolute;
+    bottom: 5%;
+    height: 3em;
+    padding: 0.25em 1em 0.25em 1em;
+    border: 3px solid var(--ncssm-blue-dark);
+    border-radius: 10px;
+}
+
+#submit-button:hover {
+    background-color: var(--ncssm-blue);
+    transition: 0.25s;
+    cursor: pointer;
+}
