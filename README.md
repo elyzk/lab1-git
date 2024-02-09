@@ -4,7 +4,7 @@
 <span style="font-size: 18"><u><b>RESOURCES</b></u>
 
 <ul>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>ChatGPT</li>
+    <li>StackOverflow</li>
+    <li>Git reference</li>
 </ul>
